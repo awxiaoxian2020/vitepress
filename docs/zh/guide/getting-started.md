@@ -64,9 +64,7 @@ $ pnpm exec vitepress init
 
 你将需要回答几个简单的问题：
 
-<p>
-  <img src="./vitepress-init.png" alt="vitepress init screenshot" style="border-radius:8px">
-</p>
+<<< @/snippets/init.ansi
 
 :::tip Vue 作为 
 如果打算使用 Vue 组件或 API 进行自定义，还应该明确地将 `vue` 安装为 peer dependency。
