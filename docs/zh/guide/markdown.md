@@ -255,7 +255,7 @@ Wraps in a <div class="vp-raw">
   }
   ```
 
-  It uses [`postcss-prefix-selector`](https://github.com/postcss/postcss-load-config) under the hood. You can pass its options like this:
+  它在底层使用了 [`postcss-prefix-selector`](https://github.com/postcss/postcss-load-config)，你可以像这样传递参数：
 
   ```js
   postcssIsolateStyles({
@@ -377,7 +377,7 @@ export default { // Highlighted
 }
 ```
 
-也可以使用 `// [!code hl]` 注释实现行高亮。
+也可以使用 `// [!code highlight]` 注释实现行高亮。
 
 **输入**
 
